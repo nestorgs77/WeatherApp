@@ -13,15 +13,18 @@ import WeatherTemperature from './WeatherTemperature';
   } from '../../../constants/weathers';
 
   import './style.css';
-const WeatherData =()=> (
-
-    <div className ="weatherDataCont">
-        <WeatherTemperature  temperature ={20} 
-        weatherState = {CLOUD}
+const WeatherData =({data})=> {
+const {temperature,weatherState,humidity,wind} = data;
+  return ( <div className ="weatherDataCont">
+        <WeatherTemperature  temperature ={temperature} 
+        weatherState = {weatherState}
         />
 
-        <WeatherExtraInfo Humidity = {80} Wind={10}/>
+        <WeatherExtraInfo Humidity = {humidity} Wind={wind}/>
          </div>
     
-); 
+)
+
+
+}; 
 export default WeatherData ; 
