@@ -2,6 +2,7 @@
 import React from 'react'; 
 import WeatherData from './WeatherData';
 import Location from './Location';
+import './style.css';
 //import PropTypes from 'prop-types';
 //import WeatherExtraInfo from './WeatherData/WeatherExtraInfo';
 //import WeatherTemperature from './WeatherData/WeatherTemperature';
