@@ -1,8 +1,9 @@
 {
-  "name": "weather-app",
-  "version": "0.1.0",
+  "name": "web",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "mysql": "^2.17.1",
     "node": "^12.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -31,5 +32,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorgs77/Node-Test.git"
+  },
+  "keywords": [
+    "Making",
+    "a",
+    "Node",
+    "and",
+    "Boostrap",
+    "app"
+  ],
+  "author": "Nestor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestorgs77/Node-Test/issues"
+  },
+  "homepage": "https://github.com/nestorgs77/Node-Test#readme"
 }
